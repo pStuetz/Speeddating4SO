@@ -1,0 +1,151 @@
+/*Colors
+*
+BLUEBERRY: #6B7A8F
+APRICOT: #F7882F
+CITRUS: #F7C331
+APPLE CORE: #DCC7AA
+*
+*/
+
+/*html and body*/
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	background-color: #DCC7AA;
+	padding: 50px;
+	font-size: 22px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 22px;
+}
+
+/*Container*/
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+/*Header*/
+#header {
+	padding: 10px;
+}
+
+.row {
+	width: 100%;
+	background: center center no-repeat;
+	margin-bottom: 10px;
+}
+
+#logo {
+	top: 50%;
+	width: 80%;
+	margin-left: 0%; /* Half the width */
+}
+
+#headerimage {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-group-vertical {
+	top: 50%;
+	margin-top: 25%;
+	margin-left: 100px;
+	width: 50%;
+}
+
+.btn-primary {
+	border-radius: 4px;
+	border-color: #6B7A8F;
+	background-color: #F7882F;
+	text-align: center;
+	padding: 8px 10px 10px 10px;
+	height: 30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.btn-primary:hover {
+	background-color: #F7C331;
+}
+
+.btn-primary span {
+	cu rsor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.btn-primary span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.btn-primary:hover span {
+	padding-right: 25px;
+}
+
+.btn-primary:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/*Navigation bar*/
+.navbar-default {
+	background-color: #F7C331;
+	text-shadow: silver;
+	padding: 8px;
+}
+
+.inhalt {
+	min-height: 100%;
+	position: relative;
+}
+
+/*Content*/
+#content {
+	padding: 10px;
+	height: 80%;
+}
+
+/*Body*/
+#body {
+	float: left;
+	width: 80%;
+	text-align: justify;
+    -moz-text-align-last: left; /* Code for Firefox */
+    text-align-last: left;
+}
+
+/*Advertisment*/
+.banner {
+	float: right;
+	width: 17%;
+	height: 100%;
+	background-color: #6B7A8F;
+}
+
+/*Footer*/
+#footer {
+	height:330px;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left:0;
+	right:0;
+}
